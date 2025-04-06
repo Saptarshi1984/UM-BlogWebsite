@@ -1,26 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap'); /*Google font for Brand*/
+
+
+
+:root {
+    --bg-theme-color:
+    --bg-brand-color:
+    --link-color:
+    --brand-font-family: "Birthstone", cursive;
+    --link-font-family:
+    --text-font-family:
+}
+
+
+
+
 * {
     margin: 0;
     padding: 0;
 }
 #navBar {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
 }
-#linkContainer{
+#brand{
+    display: flex;
+    justify-content: center;
+    font-family: "Birthstone", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8rem;
+}
+#linkContainer, #linkCategory{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 2rem;
+}
+
+#linkCategory {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    border-top:solid 1px rgb(84, 83, 83);
+    border-bottom:solid 1px rgb(84, 83, 83) ;
 }
 .navLink{
     text-decoration: none;
-    padding: 1rem;
+    padding: 0.8rem;
+    color: black;
+}
+.signin, .download {
+    border: solid 1px black;
+    border-radius: 10px;
+    color: aliceblue;
+    background: black;
+}
+.separator {
+    width: 1px;
+    height: auto;
+    background: rgb(165, 164, 164);
 }
 .searchInput{
     width: 100%;
     display: flex;
     padding: 1rem;
-    background-color: black;
+
 }
 .searchBar {
+    width: 18rem;
+    height: 2.5rem;
+    padding: 0.5rem;
     margin: auto;
+    border: solid 1px rgb(14, 15, 15);
+    border-radius: 18px 0 0 18px ;
 }
