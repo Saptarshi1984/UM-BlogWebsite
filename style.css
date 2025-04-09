@@ -170,7 +170,7 @@
 }
 .articleSec{
     width: 80%;
-    height:300px;
+    max-height:400px;
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -179,6 +179,7 @@
 }
 .imgSec {
     width: 40%;
+    height: auto;
 }
 .blogImg{
     width: 100%;
@@ -201,7 +202,7 @@
     object-fit: contain;
 }
 #footer{
-    margin: auto;
+    margin:1rem auto;
     width: 80%;
     background: #000;
     height: 300px;
