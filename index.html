@@ -28,12 +28,27 @@
            <input class="searchInput" type="search" placeholder="I am looking for..."> 
            <a href="" class="navLink download"><span><i class="fa-solid fa-cloud-arrow-down"></i></span>Free Cook Book</a>
            <a href="" class="navLink signin">Sign In</a>
-           <a href="" class="navLink mode"><span>
+           <a class="navLink mode" onclick="dark_mode()"><span>
             <i class="fa-solid fa-moon"></i>
-            </span></a>
-                      
-                     
-        </div>
+            </span></a>  
+         </div>
+         
+         <div id="mobileMenu">           
+
+            <a  onclick="drop_menu()" class="mIcon"><i class="fa-solid fa-bars"></i></a>
+
+         </div>
+         <div id="mobileLinks">
+            <a href="" class="navLink mLink">All Recipies</a>
+            <a href="" class="navLink mLink"> Shop</a>
+            <a href="" class="navLink mLink">About Us</a>
+            <a href="" class="navLink mLink">Contact Us</a>
+            <a href="" class="navLink mLink">Sign In</a>
+            <a class="navLink mode" onclick="dark_mode()">Night Mode<span>
+                <i class="fa-solid fa-moon"></i>
+                </span></a>
+
+           </div>
     </nav>
 
         <div id="linkCategory">
@@ -212,7 +227,28 @@
         
     </div>
 
+
+    <div id="foodCover">
     <div class="foodParadise">
+
+        <a href="">
+            <div class="region">
+                <div class="regImage">
+                    <img src="" alt="image-name">
+                </div>
+                <h6>Image Title</h6>
+            </div>
+            </a>
+    
+            <a href="">
+            <div class="region">
+                <div class="regImage">
+                    <img src="" alt="image-name">
+                </div>
+                <h6>Image Title</h6>
+            </div>
+            </a>
+
         <a href="">
         <div class="region">
             <div class="regImage">
@@ -249,10 +285,33 @@
             </div>
             </a>
     </div>
+    </div>
 
     <div id="footer">
-        <div class="socialMedia"></div>
-        <div class="usefulLinks"></div>
+        <div id="footerWrap">
+          <div id="company" class="vAlign">
+            <h3>Company</h3>
+            <a href="" class="footerLink catLink">Link</a>
+            <a href="" class="footerLink catLink">Link</a>
+            <a href="" class="footerLink catLink">Link</a>
+            <a href="" class="footerLink catLink">Link</a>
+        </div>
+          <div id="legal" class="vAlign">
+            <h3>Legal</h3>
+            <a href="" class="footerLink catLink">Link</a>
+            <a href="" class="footerLink catLink">Link</a>
+            <a href="" class="footerLink catLink">Link</a>
+            <a href="" class="footerLink catLink">Link</a>
+            
+        </div>
+          <div id="recipies" class="vAlign">
+            <h3>Food & Recepies</h3>
+            <a href="" class="footerLink catLink">Link</a>
+            <a href="" class="footerLink catLink">Link</a>
+            <a href="" class="footerLink catLink">Link</a>
+            <a href="" class="footerLink catLink">Link</a>
+        </div>
+        </div>
     </div>
 
 
