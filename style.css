@@ -215,8 +215,24 @@
     font-family: var(--link-font-family);
     font-size: 1.8rem;
 }
-#commentContainer{
-    width: 100%;
+#commentBox{
+    background: linear-gradient(to bottom, #ffffff, #f5eede);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.commentStyle{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+#reply {
+    border: none;
+    height: 20px;
+    width: 100px;
+}
+#commentContainer{    
     background: #161616;
     padding: 1rem;
     color: aliceblue;
@@ -587,6 +603,10 @@ padding: 0.8rem;
 }
 @media screen and (width < 650px) {
 
+    #brand{
+        font-size: 4rem;
+    }
+
     .midSec {
         display: block;
         width: 100%;
@@ -597,7 +617,19 @@ padding: 0.8rem;
         width: 100%;
     }
     .imgSec, .article, .blogImg {
-        width: 100%;
+        width: 80%;
     }
+    #commentSec{
+        width: 90%;
+
+    }
+    #fullArticle {
+        flex-direction: column;
+    }
+    #fulArticle img{
+        width: 100%;
+        height: auto;
+    }
+
 
 }
