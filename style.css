@@ -250,7 +250,39 @@
     padding: 0.8rem;
 }
 #commentSec button {
-    padding: 0.8em;
+    padding: 6px;
+}
+#like-reply {    
+    align-items: center;    
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 0.8rem;   
+}
+#like-reply a{
+    background:rgb(214, 213, 213) ;
+    text-align: center;
+    padding: 0.6rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#like-reply a:hover {
+    background: #7c7c7b;
+    color: #fff;
+}
+#like-reply i {
+    padding: 0.6rem;
+    border-radius: 50%;
+}
+#like-reply i:hover{
+    background: rgb(214, 213, 213);
+}
+#replyInput-x{
+border: none;
+}
+.inputStyle input {
+border: none;
+height: 20px;
 }
 .articleSec{
     flex: 1;

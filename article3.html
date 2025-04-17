@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+
+   
+
+    <div id="container">
+
+    <nav id="navBar">
+        <div id="brand">
+            <a href="index.html" class=" brandText">Authentic Cuisines.</a>
+        </div>
+
+        <div id="linkContainer">
+           <a href="" class="navLink">All Recipies</a>
+           <a href="" class="navLink"> Shop</a>
+           <a href="" class="navLink">About Us</a>
+           <a href="" class="navLink">Contact Us</a>
+           <div class="separator"></div>
+           <input class="searchInput" type="search" placeholder="I am looking for..."> 
+           <a href="" class="navLink download"><span><i class="fa-solid fa-cloud-arrow-down"></i></span>Free Cook Book</a>
+           <a href="" class="navLink signin">Sign In</a>
+           <a class="navLink mode" onclick="dark_mode()"><span>
+            <i class="fa-solid fa-moon"></i>
+            </span></a>  
+         </div>
+         
+         <div id="mobileMenu">           
+
+            <a  onclick="drop_menu()" class="mIcon"><i class="fa-solid fa-bars"></i></a>
+
+         </div>
+         <div id="mobileLinks">
+            <a href="" class="navLink mLink">All Recipies</a>
+            <a href="" class="navLink mLink"> Shop</a>
+            <a href="" class="navLink mLink">About Us</a>
+            <a href="" class="navLink mLink">Contact Us</a>
+            <a href="" class="navLink mLink">Sign In</a>
+            <a class="navLink mode" onclick="dark_mode()">Night Mode<span>
+                <i class="fa-solid fa-moon"></i>
+                </span></a>
+
+           </div>
+    </nav>
+
+        <div id="linkCategory">
+            <a href="" class="navLink catLink">Breakfast</a>
+            <a href="" class="navLink catLink"> Lunch</a>
+            <a href="" class="navLink catLink">Supper</a>
+            <a href="" class="navLink catLink">Dinner</a>
+            <a href="" class="navLink catLink">Soup</a>
+            <a href="" class="navLink catLink"> Lunch</a>
+            <a href="" class="navLink catLink">Supper</a>
+            <a href="" class="navLink catLink">Dinner</a>
+                      
+         </div>
+        </div>
+
+        <div class="heading">
+            <a href="#"><h1>Trending Recipies</h1></a>
+            <a href="#"><p class="seeAll">See all</p></a>
+        </div>
+
+        <div id="main-content">
+
+            <div class="card">
+                <img class="cardImg" src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744025439/pexels-saveurssecretes-9191935_fstewx.jpg">
+                <h2>Title</h2>
+                <p>Some Text...</p>
+            </div>
+
+
+            <div class="card">
+                <img class="cardImg" src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744025439/pexels-saveurssecretes-9191935_fstewx.jpg">
+                <h2>Title</h2>
+                <p>Some Text...</p>
+            </div>
+
+            <div class="card">
+                <img class="cardImg" src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744025439/pexels-saveurssecretes-9191935_fstewx.jpg">
+                <h2>Title</h2>
+                <p>Some Text...</p>
+            </div>
+
+
+            <div class="card">
+                <img class="cardImg" src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744025439/pexels-saveurssecretes-9191935_fstewx.jpg">
+                <h2>Title</h2>
+                <p>Some Text...</p>
+            </div>
+           
+
+            
+        </div>
+ 
+        <div class="blog">
+
+            <div class="midSec">
+                 <div id="fullArticle">
+
+                    <div id="cusineImg">
+                        <img src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744042631/pexels-ella-olsson-572949-1640777_mjg3oc.jpg" width="400px" height="300" alt="cusine">
+                    </div>
+                    <div id="basicDetails">
+                    <h1>Classic Italian Salad Recipe -- A Taste of the Mediterranean!</h1>
+                    <h3>Date: 14-04-2025</h3>
+                    
+                    <img src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744629165/1742480725763_utbwlg.jpg" alt="author" width="80px" height="80px" style="border-radius: 50%;">
+                    <h4>Author: Saptarshi M.</h4>
+                    </div>
+        
+                 </div>
+                 <div id="articleContent">
+                      <p>If you're craving something light, crisp, and full of Mediterranean charm, this Italian Salad is the answer. 
+                        Bursting with fresh vegetables, zesty vinaigrette, and a sprinkle of cheese, it’s the perfect side dish for pasta 
+                        nights, summer BBQs, or even as a standalone lunch. Let’s dive into the recipe and bring a little taste of Italy to your plate! </p>
+                        <h3>Why You'll Love This Salad</h3>
+                        <ul>
+                            <li><strong>Quick & Easy:</strong> Ready in under 15 minutes!</li>
+                            <li><strong>Fresh & Healthy:</strong> Packed with vitamins and fiber.</li>
+                            <li><strong>Customizable:</strong> Add your favorite Italian meats or keep it vegetarian.</li>
+                            <li><strong>Perfect for Meal Prep:</strong> The dressing can be made ahead and stored.</li>
+                        </ul> 
+                        <h3>Ingredients</h3>
+                        <h4>For the Salad:</h4>
+                        <ul>
+                            <li>4 cups romaine lettuce, chopped</li>
+                            <li>1 cup cherry tomatoes, halved</li>
+                            <li>1/2 cup red onions, thinly sliced</li>
+                            <li>1/2 cup cucumber, sliced</li>
+                            <li>1/4 cup black olives, pitted</li>
+                            <li>1/4 cup pepperoncini (optional, for a little heat!)</li>
+                            <li>1/4 cup grated Parmesan cheese</li>
+                            <li>Croutons for crunch (optional)</li>
+                        </ul>
+                        <h4>For the Italian Vinaigrette:</h4>
+                        <ul>
+                            <li>1/4 cup extra virgin olive oil</li>
+                            <li>2 tbsp red wine vinegar</li>
+                            <li>1 tsp Dijon mustard</li>
+                            <li>1 clove garlic, minced</li>
+                            <li>1/2 tsp dried oregano</li>
+                            <li>Salt and freshly ground black pepper, to taste</li>
+                        </ul>
+                        <h3>How to Make It</h3>
+                        <ul>
+                            <li>Step 1: Whisk the Vinaigrette</li>
+                            <p>In a small bowl or jar, combine olive oil, vinegar, mustard, garlic, oregano, salt, and pepper. 
+                                Whisk or shake well until fully emulsified. Set aside.</p>
+                            <li>Step 2: Assemble the Salad</li>
+                            <p>In a large bowl, combine lettuce, tomatoes, onions, cucumber, olives, and pepperoncini. 
+                                Gently toss everything together.</p>
+                            <li>Step 3: Dress It Up</li>
+                            <p>Drizzle the vinaigrette over the salad just before serving. Toss gently to coat all the ingredients evenly.</p>
+                            <li>Step 4: Top & Serve</li>
+                            <p>Sprinkle grated Parmesan and croutons on top. Serve immediately and enjoy the refreshing burst of Italian flavors!</p>
+                        </ul>
+                        <h3>🇮🇹 Buon Appetito!</h3>
+                        <p>This Italian salad is proof that simple ingredients can create something truly delicious. Whether you’re hosting a dinner party or just need a quick weekday lunch, this recipe won’t disappoint.</p>
+                 </div>
+
+                 <!-- This is the comment section -->
+                 <div id="commentBox">
+              
+                 </div> 
+                 
+                 <div id="commentContainer">
+                    <h2>Leave a Comment Here</h2>
+                    <div id="commentSec" >
+                        <input id="userName" type="text" placeholder="Name" required>
+                        <input id="userEmail" type="email" placeholder="Email" required>
+                        <textarea name="comment-here" id="userComment" placeholder="Write your comment here..." required style="height: 150px; padding: 1rem;"></textarea>
+                        <button type="button" onclick="submitComment()">Submit</button>
+                    </div> 
+
+                 </div>          
+                 <a class="article" href="" style="margin: auto;"><div class="moreArticles"><h3>Read More Articles</h3></div></a>
+            </div>
+        
+       
+        
+    
+    <div class="rightSec">
+     <div class="right-block">
+        
+        <a href=""><div class="rightSecLink">Instant Pot Recipies</div></a>
+        <a href=""><div class="rightSecLink">Vegan Recipies</div></a>
+        <a href=""><div class="rightSecLink">Meal Prep Recipies</div></a>
+        <a href=""><div class="rightSecLink">Quick and Easy Recipies</div></a>
+        <a href=""><div class="rightSecLink">Pasta Recipies</div></a>
+        <a href=""><div class="rightSecLink">Soup Recipies</div></a>
+        <a href=""><div class="rightSecLink">Most Popular Recipies</div></a>
+        <a href=""><div class="rightSecLink">Instant Pot Recipies</div></a>
+        <a href=""><div class="rightSecLink">Vegan Recipies</div></a>
+        <a href=""><div class="rightSecLink">Meal Prep Recipies</div></a>
+        <a href=""><div class="rightSecLink">Quick and Easy Recipies</div></a>
+        <a href=""><div class="rightSecLink">Pasta Recipies</div></a>
+        <a href=""><div class="rightSecLink">Soup Recipies</div></a>
+        <a href=""><div class="rightSecLink">Most Popular Recipies</div></a>
+        
+     </div>
+
+    </div>
+    </div>
+
+    <div id="cover">
+    <div id="signUp">
+        
+            <div id="socialLinks">
+                <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+            </div>
+            
+            
+            <div id="signupSec">
+              <input class="user-name" type="text" placeholder="First Name">
+              <input class="email" type="email" placeholder="Email">
+              <button class="go" type="button">Go</button>
+            </div>
+        </div>        
+        
+    </div>
+
+
+    <div id="foodCover">
+        <div class="foodParadise">
+    
+            <a href="" class="roundImg">
+                <div class="region">
+                    <div class="regImage">
+                        <img src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744042630/pexels-su-la-pyae-54514809-19134836_hjrdgh.jpg" alt="image-name" width="200px" height="200px" style="object-fit: cover ;border-radius: 50%;">
+                    </div>
+                    <h6>Image Title</h6>
+                </div>
+                </a>
+        
+                <a href="" class="roundImg">
+                <div class="region">
+                    <div class="regImage">
+                        <img src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744644059/brandi-alexandra-M-Br3v3-gao-unsplash_puacau.jpg" alt="image-name" width="200px" height="200px" style="object-fit: cover ;border-radius: 50%;">
+                    </div>
+                    <h6>Image Title</h6>
+                </div>
+                </a>
+    
+            <a href="" class="roundImg">
+            <div class="region" >
+                <div class="regImage">
+                    <img src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744644058/sam-moghadam-mix6yDC_hxU-unsplash_azusmf.jpg" alt="image-name" width="200px" height="200px" style="object-fit: cover ;border-radius: 50%;">
+                </div>
+                <h6>Image Title</h6>
+            </div>
+            </a>
+    
+            <a href="" class="roundImg">
+            <div class="region">
+                <div class="regImage">
+                    <img src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744644321/adam-bartoszewicz-lNFfYtrbkRM-unsplash_dykchd.jpg" alt="image-name" width="200px" height="200px" style="object-fit: cover ;border-radius: 50%;">
+                </div>
+                <h6>Image Title</h6>
+            </div>
+            </a>
+    
+            <a href="" class="roundImg">
+                <div class="region">
+                    <div class="regImage">
+                        <img src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744644320/joseph-gonzalez-QaGDmf5tMiE-unsplash_pniugy.jpg" alt="image-name" width="200px" height="200px" style="object-fit: cover ;border-radius: 50%;">
+                    </div>
+                    <h6>Image Title</h6>
+                </div>
+                </a>
+        
+                <a href="" class="roundImg">
+                <div class="region" class="roundImg">
+                    <div class="regImage">
+                        <img src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744644058/marta-filipczyk-7BQC4h7wd9Y-unsplash_wni6sv.jpg" alt="image-name" width="200px" height="200px" style="object-fit: cover ;border-radius: 50%;">
+                    </div>
+                    <h6>Image Title</h6>
+                </div>
+                </a>
+        </div>
+        </div>
+
+    <div id="footer">
+        <div id="footerWrap">
+          <div id="company" class="vAlign">
+            <h3>Company</h3>
+            <a href="" class="footerLink catLink">Link</a>
+            <a href="" class="footerLink catLink">Link</a>
+            <a href="" class="footerLink catLink">Link</a>
+            <a href="" class="footerLink catLink">Link</a>
+        </div>
+          <div id="legal" class="vAlign">
+            <h3>Legal</h3>
+            <a href="" class="footerLink catLink">Link</a>
+            <a href="" class="footerLink catLink">Link</a>
+            <a href="" class="footerLink catLink">Link</a>
+            <a href="" class="footerLink catLink">Link</a>
+            
+        </div>
+          <div id="recipies" class="vAlign">
+            <h3>Food & Recepies</h3>
+            <a href="" class="footerLink catLink">Link</a>
+            <a href="" class="footerLink catLink">Link</a>
+            <a href="" class="footerLink catLink">Link</a>
+            <a href="" class="footerLink catLink">Link</a>
+        </div>
+        </div>
+    </div>
+
+ <script src="script.js"></script>
+ <script src="https://kit.fontawesome.com/eac29af5b4.js" crossorigin="anonymous"></script>   
+</body>
+</html>
