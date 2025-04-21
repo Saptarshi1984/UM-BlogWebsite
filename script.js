@@ -1,10 +1,9 @@
-/* function dark_mode() {
+function dark_modeToggle() {
 
-    const bgcolor = document.querySelector('body');
-    
-    bgcolor.style.background = "Black";
-    bgcolor.style.color = 'white'; 
-} */
+document.getElementById("brand").classList.toggle("darkMode");
+document.getElementById("linkContainer").classList.toggle("darkMode");
+
+}
    
     
 
