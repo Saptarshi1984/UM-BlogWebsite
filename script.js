@@ -2,6 +2,13 @@ function dark_modeToggle() {
 
 document.getElementById("brand").classList.toggle("darkMode");
 document.getElementById("linkContainer").classList.toggle("darkMode");
+document.getElementById("linkCategory").classList.toggle("darkMode");
+document.getElementById("main-content").classList.toggle("darkMode");
+document.getElementById("dark").classList.toggle("darkMode");
+document.getElementById("dark2").classList.toggle("darkMode");
+document.body.classList.toggle("darkMode");
+
+
 
 }
    

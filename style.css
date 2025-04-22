@@ -15,16 +15,28 @@
 
 .darkMode{
     background:rgb(24, 24, 24);
+
+    a, h1{
+        color: var(--brand-color);
+        text-decoration: none;
+    }
+    p {
+        color: rgb(162, 161, 161);
+    }
+    h2 {
+        color: white;
+    }
+    .date {
+        color: white;
+    }
+    
 }
 
 
 * {
     margin: 0;
     padding: 0;
-/*     text-decoration: none;
-    list-style: none; */
 }
-
 #container{
     display: flex;
     flex-direction: column;
@@ -52,23 +64,21 @@
     font-family: "Birthstone", cursive;
     font-weight: 400;
     font-style:normal;
-    font-size: 8rem; 
-
+    font-size: 10rem;
 }
 .brandText {
     text-decoration: none;
     color:var(--brand-color);
-    text-shadow: 2px 5px rgb(178, 176, 176);
+    text-shadow: 4px 4px 10px rgb(178, 176, 176);
 }
 #linkContainer, #linkCategory{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 2rem;
+    gap: 1.6rem;
 }
 
-#linkCategory {
-    
+#linkCategory {    
     border-top:solid 1px rgb(84, 83, 83);
     border-bottom:solid 1px rgb(84, 83, 83) ;
 }
@@ -79,8 +89,7 @@
     font-family: "DM Serif Display", serif;
     transition: transform 0.2s ease-out;
 }
-.mode {
-     
+.mode {      
     padding: 12px;
 }
 .catLink{
@@ -92,7 +101,6 @@
     border-bottom-right-radius: 8px;
     transform: translateY(-2px);
 }
-
 .searchInput {
     border:solid 1px #000;
     width: 16rem;
@@ -146,15 +154,17 @@
     margin: auto;
     justify-content: space-between;
     padding: 1rem;
+
+    a {
+        color: #000;
+        font-family: var(--link-font-family);
+      }
+
+      a:hover{
+        color: var(--brand-color);
+    }
 }
-.heading > a {
-    /* text-decoration: none; */
-    color: #000;
-    font-family: var(--link-font-family);
-}
-.heading > a:hover{
-    color: var(--brand-color);
-}
+
 #main-content{
     padding: 1rem;
     width: 80%;
@@ -163,6 +173,11 @@
     gap: 1rem;
     margin: auto;
     place-items: center;
+    
+    a {text-decoration: none;}
+    a:hover{
+        transform: translateY(-10px);
+    }
 }
 .card{
     border-radius: 20px;
@@ -175,11 +190,12 @@
     object-fit: contain;
     color: aliceblue;
     box-shadow: 4px 4px 16px rgb(119, 118, 118);
+    transition: transform 0.3s ease;
 
-    h2, p {
+    h2 {
         text-align: center;
         padding: 0.8rem;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: var(--link-font-family);
         font-weight: 800;
     }
     img {
@@ -187,6 +203,7 @@
         border-top-right-radius: 16px;
     }
 }
+
 
 .blog{
     display: flex;
@@ -679,7 +696,17 @@ padding: 0.8rem;
         margin: auto;
         place-items: center;
     }
+    .blog-head{
+        justify-content: center;
+        background: var(--brand-color-light);
+        border-radius: 12px;
+        padding: 0.6rem;
+        font-size: 0.8rem;
 
+        a {
+            text-decoration: none;
+        }
+    }
     .foodParadise {
         grid-template-columns: repeat(2, minmax(100px, 1fr));
         height: auto;
@@ -718,6 +745,12 @@ padding: 0.8rem;
         -webkit-overflow-scrolling: touch;
         scrollbar-width:thin;
     }
+    .moreArticles{
+        width: 90%;
+        margin: auto;
+        justify-content: center;
+        border-radius: 12px;
+    }
 }
 @media screen and (width < 650px) {
 
@@ -725,12 +758,15 @@ padding: 0.8rem;
         font-size: 4rem;
     }
 
+    #main-content{
+        grid-template-columns: repeat(1, minmax(100px, 1fr));
+    }
+
     .blog{
         display: flex;
         flex-direction: column;
         width: 100%;
         }
-
     .midSec {        
         width: 100%;
         max-height: auto;        
@@ -744,6 +780,7 @@ padding: 0.8rem;
 
         h2{
             font-size: 1.6rem;
+            text-align: center;
         }
         p{
             font-size: 1.2rem;
@@ -754,8 +791,7 @@ padding: 0.8rem;
     }
     .imgSec{        
         width: 80%;
-        margin: auto;
-        background: #000;      
+        margin: auto;    
     }
     .blogImg{
         width: 100%;
@@ -779,7 +815,7 @@ padding: 0.8rem;
         font-size: 1.6rem;
     }
     .article p{
-        font-size: 1.8rem;
+        font-size: 1.4rem;
     }
 
 }
