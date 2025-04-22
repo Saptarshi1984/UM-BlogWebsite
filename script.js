@@ -1,16 +1,18 @@
 function dark_modeToggle() {
 
-document.getElementById("brand").classList.toggle("darkMode");
-document.getElementById("linkContainer").classList.toggle("darkMode");
-document.getElementById("linkCategory").classList.toggle("darkMode");
-document.getElementById("main-content").classList.toggle("darkMode");
-document.getElementById("dark").classList.toggle("darkMode");
-document.getElementById("dark2").classList.toggle("darkMode");
 document.body.classList.toggle("darkMode");
 
-
-
+const icon = document.getElementById("modeIcon");
+if (icon.classList.contains("fa-moon")) {
+  icon.classList.remove("fa-moon");
+  icon.classList.add("fa-sun");
+} else {
+  icon.classList.remove("fa-sun");
+  icon.classList.add("fa-moon");
 }
+}
+
+
    
     
 
