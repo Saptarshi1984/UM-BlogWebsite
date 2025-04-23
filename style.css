@@ -14,17 +14,19 @@
 }
 
 .darkMode{
+    
     background:rgb(24, 24, 24);
+
     .brandText{
         color: var(--brand-color);
     }
 
-    a, h1,h3,h4, li{
+    a,h1,h3,h4,li{
         color: rgb(248, 243, 243);
         text-decoration: none;
     }
     p {
-        color: rgb(162, 161, 161);
+        color: rgb(243, 241, 241);
     }
     h2 {
         color: white;
@@ -33,10 +35,29 @@
         color: white;
     }
     #commentContainer{
-        border: solid 2px var(--brand-color);
+        border: solid   2px var(--brand-color);
     }
-    
+    .moreArticles h3{
+        color: #000;
+    }
+    .readArticle {
+        border: solid 2px var(--brand-color);
+    } 
 }
+
+/* @keyframes nightSky {
+    0% {background:rgb(214, 214, 214);}
+    10% {background:rgb(198, 198, 198);}
+    20% {background:rgb(176, 176, 176);}
+    30% {background:rgb(168, 167, 167);}
+    40% {background:rgb(154, 153, 153);}
+    50% {background:rgb(146, 146, 146);}
+    60% {background:rgb(132, 132, 132);}
+    70% {background:rgb(122, 121, 121);}
+    80% {background:rgb(91, 91, 91);}
+    90% {background:rgb(70, 69, 69);}
+    100% {background:rgb(13, 13, 13);}
+} */
 
 
 * {
@@ -164,6 +185,7 @@
     a {
         color: #000;
         font-family: var(--link-font-family);
+        text-decoration: none;
       }
 
       a:hover{
@@ -209,8 +231,6 @@
         border-top-right-radius: 16px;
     }
 }
-
-
 .blog{
     display: flex;
     flex-direction: row;
@@ -234,6 +254,7 @@
     padding: 1rem;
     width: 100%;
     gap: 1rem;
+    margin-top: 1rem;
 }
 #basicDetails {
     display: flex;
@@ -688,8 +709,6 @@ padding: 0.8rem;
         position: relative;
         height: 20px;               
     }
-
-
 }
 
 @media screen and (width < 992px) {
@@ -698,7 +717,7 @@ padding: 0.8rem;
         font-size: 5rem;
     }
     .articleSec{
-        max-height: 250px;
+        max-height:200px;        
     }
     #main-content{
         padding: 1rem;
@@ -764,6 +783,10 @@ padding: 0.8rem;
         justify-content: center;
         border-radius: 12px;
     }
+    #fullArticle {
+        align-items: center;
+    }
+
 }
 @media screen and (width < 650px) {
 
@@ -784,6 +807,10 @@ padding: 0.8rem;
         width: 100%;
         max-height: auto;        
         gap: 1rem;
+    }
+    .rightSec {
+        width: 80%;
+        text-align: center;
     }
     .articleSec { 
         margin: auto;       
@@ -812,13 +839,7 @@ padding: 0.8rem;
     #commentSec{
         width: 90%;
     }
-    #fullArticle {
-        flex-direction: column;
-    }
-    #fulArticle img{
-        width: 100%;
-        height: auto;
-    }
+
     .arrow {
         justify-content: center;
     }
@@ -829,6 +850,15 @@ padding: 0.8rem;
     }
     .article p{
         font-size: 1.4rem;
+    }
+    #fullArticle{
+        width: 80%;
+        margin: auto;
+        align-items: center;
+    }
+    #articleContent{
+     width: 80%;
+     margin: auto;
     }
 
 }

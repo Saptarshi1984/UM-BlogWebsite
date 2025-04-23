@@ -1,16 +1,36 @@
-function dark_modeToggle() {
+/* This is a function to check the mode stored in localstorage and according to that apply the settings 
+on the webpage. */
 
-document.body.classList.toggle("darkMode");
-
-const icon = document.getElementById("modeIcon");
-if (icon.classList.contains("fa-moon")) {
-  icon.classList.remove("fa-moon");
-  icon.classList.add("fa-sun");
-} else {
-  icon.classList.remove("fa-sun");
-  icon.classList.add("fa-moon");
-}
-}
+window.onload = function () {
+    const theme = localStorage.getItem("theme");
+    const icon = document.getElementById("modeIcon");
+  
+    if (theme === "darkMode") {
+      document.body.classList.add("darkMode");
+      icon.classList.remove("fa-moon");
+      icon.classList.add("fa-sun");
+    } else {
+      document.body.classList.remove("darkMode");
+      icon.classList.remove("fa-sun");
+      icon.classList.add("fa-moon");
+    }
+  }
+/* Function to toggle between dark mode nad light mode and save to local storage */
+  function dark_modeToggle() {
+    document.body.classList.toggle("darkMode");
+  
+    const icon = document.getElementById("modeIcon");
+  
+    if (document.body.classList.contains("darkMode")) {
+      localStorage.setItem("theme", "darkMode");
+      icon.classList.remove("fa-moon");
+      icon.classList.add("fa-sun");
+    } else {
+      localStorage.setItem("theme", "lightMode");
+      icon.classList.remove("fa-sun");
+      icon.classList.add("fa-moon");
+    }
+  }
 
 
    
