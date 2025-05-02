@@ -24,7 +24,8 @@ This site showcases articles on web development, tech tutorials, and personal in
 
 - **HTML5** – Semantic page structure  
 - **CSS3** – Custom styles for layout, typography, and responsiveness  
-- **JavaScript** - Used create like, comment and reply section
+- **JavaScript** - Used to create like, comment and reply section
+- **Font Awesome** -(https://fontawesome.com/) for icons
 
 ---
 
