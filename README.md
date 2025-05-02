@@ -31,6 +31,7 @@ This site showcases articles on web development, tech tutorials, and personal in
 ## 🗃️ Project Structure
 
 UM-BlogWebsite/
+
 ├── index.html # Homepage with article links
 ├── article1.html # First blog article
 ├── article2.html # Second blog article
