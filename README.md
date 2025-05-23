@@ -69,6 +69,8 @@ This project is deployed using **GitHub Pages**.
 
 No external hosting or backend is required — just push to the repository and go live.
 
+[Visit Homepage](https://saptarshi1984.github.io/UM-BlogWebsite/index.html)
+
 [DOWNLOAD Project Documentation](https://drive.google.com/file/d/1zhkJgFJPS4YAO2odVhvLA3yYcNrtYVhV/view?usp=drive_link)
 
 ## 📬 Contact
