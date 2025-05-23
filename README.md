@@ -1,7 +1,7 @@
 # 📰 UM-BlogWebsite
 
-Welcome to the **UM-BlogWebsite**, a personal blog platform built and maintained by **Saptarshi Mondal**.  
-This site showcases articles on web development, tech tutorials, and personal insights.
+A fully functional and responsive blog website built using HTML, CSS, and JavaScript. 
+This project showcases fundamental front-end development skills with an emphasis on design, interactivity, and code structure.
 
 ## 🌐 Live Website
 
@@ -9,14 +9,25 @@ This site showcases articles on web development, tech tutorials, and personal in
 
 ---
 
-## 📌 Features
+## 🚀 Project Objectives
 
-- 🧠 Blog-style article layout
-- 📱 Responsive design for mobile and desktop
-- 🖼️ Image integration and formatting
-- 🗂️ Easy article linking (e.g., `article1.html`, `article2.html`)
-- ⚡ Fast and lightweight
-- 🌍 Hosted with GitHub Pages
+✅ Design a clean and visually appealing blog layout
+
+✅ Create a structured file system with index.html, styles.css, and script.js
+
+✅ Develop at least three blog posts with titles, content, dates, and images
+
+✅ Implement a navigation menu for seamless browsing
+
+✅ Add a JavaScript-powered comment section on each blog post
+
+✅ Ensure full responsiveness across devices using CSS media queries
+
+✅ Include extra features like search functionality and social sharing buttons (if applicable)
+
+✅ Test the website across multiple browsers and screen sizes
+
+✅ Maintain well-documented and clean code
 
 ---
 
@@ -28,6 +39,9 @@ This site showcases articles on web development, tech tutorials, and personal in
 - **Font Awesome** -(https://fontawesome.com/) for icons
 
 ---
+
+## 💡 Extra Features
+🌙 Dark Mode: Users can toggle between light and dark themes for a better reading experience, especially in low-light environments.
 
 ## 🗃️ Project Structure
 
