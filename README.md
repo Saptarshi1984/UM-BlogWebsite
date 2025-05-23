@@ -71,7 +71,6 @@ No external hosting or backend is required — just push to the repository and g
 
 ---
 
-[📄 VIEW Project Documentation](https://drive.google.com/uc?export=view&id=1zhkJgFJPS4YAO2odVhvLA3yYcNrtYVhV)
 
 ## 📬 Contact
 
