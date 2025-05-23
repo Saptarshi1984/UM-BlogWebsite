@@ -1,321 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    
-    
-</head>
-<body>   
-
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div id="container">
-
-    <nav id="navBar">
+      <nav id="navBar">
         <div id="brand">
-            <a href="" class=" brandText">Authentic Cuisines.</a>
+          <a href="" class="brandText">Authentic Cuisines.</a>
         </div>
 
         <div id="linkContainer">
-           <a href="" class="navLink">All Recipies</a>
-           <a href="" class="navLink"> Shop</a>
-           <a href="" class="navLink">About Us</a>
-           <a href="" class="navLink">Contact Us</a>
-           <div class="separator"></div>
-           <input class="searchInput" type="search" placeholder="I am looking for..."> 
-           <a href="" class="navLink download"><span><i class="fa-solid fa-cloud-arrow-down"></i></span>Free Cook Book</a>
-           <a href="" class="navLink signin">Sign In</a>
-           <a class="navLink mode" onclick="dark_modeToggle()">
-            <i id="modeIcon"  class="fa-solid fa-moon"></i>
-           </a>  
-         </div>
-         
-         <div id="mobileMenu">           
-
-            <a  onclick="drop_menu()" class="mIcon"><i class="fa-solid fa-bars"></i></a>
-
-         </div>
-         <div id="mobileLinks">
-            <a href="" class="navLink mLink">All Recipies</a>
-            <a href="" class="navLink mLink"> Shop</a>
-            <a href="" class="navLink mLink">About Us</a>
-            <a href="" class="navLink mLink">Contact Us</a>
-            <a href="" class="navLink mLink">Sign In</a>
-            <a class="navLink mode" onclick="dark_modeToggle()">
-                <i id="modeIcon" class="fa-solid fa-moon"></i>
-            </a>
-           </div>
-    </nav>
-
-        <div id="linkCategory">
-            <a href="" class="navLink catLink">Breakfast</a>
-            <a href="" class="navLink catLink"> Lunch</a>
-            <a href="" class="navLink catLink">Supper</a>
-            <a href="" class="navLink catLink">Dinner</a>
-            <a href="" class="navLink catLink">Soup</a>
-            <a href="" class="navLink catLink"> Lunch</a>
-            <a href="" class="navLink catLink">Supper</a>
-            <a href="" class="navLink catLink">Dinner</a>
-                      
-         </div>
+          <a href="" class="navLink">All Recipies</a>
+          <a href="" class="navLink"> Shop</a>
+          <a href="" class="navLink">About Us</a>
+          <a href="" class="navLink">Contact Us</a>
+          <div class="separator"></div>
+          <input
+            class="searchInput"
+            type="search"
+            placeholder="I am looking for..."
+          />
+          <a href="" class="navLink download"
+            ><span><i class="fa-solid fa-cloud-arrow-down"></i></span>Free Cook
+            Book</a
+          >
+          <a href="" class="navLink signin">Sign In</a>
+          <a class="navLink mode" onclick="dark_modeToggle()">
+            <i id="modeIcon" class="fa-solid fa-moon"></i>
+          </a>
         </div>
 
-        <div class="heading" id="dark">
-            <a href="#"><h1>Trending Recipies</h1></a>
-            <a href="#"><p class="seeAll">See all</p></a>
+        <div id="mobileMenu">
+          <a onclick="drop_menu()" class="mIcon"
+            ><i class="fa-solid fa-bars"></i
+          ></a>
         </div>
-
-        <div id="main-content">
-           
-            <a href="" class="card">
-                <img class="cardImg" src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1745246248/pexels-bertellifotografia-31393444_bbfa1t.jpg">
-                <h2 class="cardTitle">Japanese Ramen</h2>                
-            </a>
-           
-                
-            <a href="" class="card">
-                <img class="cardImg" src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1745246249/pexels-yankrukov-8818732_ilo4fk.jpg">
-                <h2 class="cardTitle">Indian Thali</h2>                
-            </a>
-
-            <a href="" class="card">
-                <img class="cardImg" src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1745246775/pexels-valeriya-17138067_acp0uh.jpg">
-                <h2 class="cardTitle">BBQ's</h2>                
-            </a>
-
-
-            <a href="" class="card">
-                <img class="cardImg" src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1745246537/pexels-dainiktales-19834448_aamgus.jpg">
-                <h2 class="cardTitle">Indian Curry</h2>                   
-            </a>
-           
-
-            
+        <div id="mobileLinks">
+          <a href="" class="navLink mLink">All Recipies</a>
+          <a href="" class="navLink mLink"> Shop</a>
+          <a href="" class="navLink mLink">About Us</a>
+          <a href="" class="navLink mLink">Contact Us</a>
+          <a href="" class="navLink mLink">Sign In</a>
+          <a class="navLink mode" onclick="dark_modeToggle()">
+            <i id="modeIcon" class="fa-solid fa-moon"></i>
+          </a>
         </div>
+      </nav>
 
-        <div class="heading blog-head" id="dark2">
-            <a href="#"><h1>Latest Articles</h1></a>           
-        </div>
+      <div id="linkCategory">
+        <a href="" class="navLink catLink">Breakfast</a>
+        <a href="" class="navLink catLink"> Lunch</a>
+        <a href="" class="navLink catLink">Supper</a>
+        <a href="" class="navLink catLink">Dinner</a>
+        <a href="" class="navLink catLink">Soup</a>
+        <a href="" class="navLink catLink"> Lunch</a>
+        <a href="" class="navLink catLink">Supper</a>
+        <a href="" class="navLink catLink">Dinner</a>
+      </div>
+    </div>
 
-        <div class="blog">
+    <div class="heading" id="dark">
+      <a href="#"><h1>Trending Recipies</h1></a>
+      <a href="#"><p class="seeAll">See all</p></a>
+    </div>
 
-        <div class="midSec">
+    <div id="main-content">
+      <a href="" class="card">
+        <img
+          class="cardImg"
+          src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1745246248/pexels-bertellifotografia-31393444_bbfa1t.jpg"
+        />
+        <h2 class="cardTitle">Japanese Ramen</h2>
+      </a>
 
+      <a href="" class="card">
+        <img
+          class="cardImg"
+          src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1745246249/pexels-yankrukov-8818732_ilo4fk.jpg"
+        />
+        <h2 class="cardTitle">Indian Thali</h2>
+      </a>
+
+      <a href="" class="card">
+        <img
+          class="cardImg"
+          src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1745246775/pexels-valeriya-17138067_acp0uh.jpg"
+        />
+        <h2 class="cardTitle">BBQ's</h2>
+      </a>
+
+      <a href="" class="card">
+        <img
+          class="cardImg"
+          src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1745246537/pexels-dainiktales-19834448_aamgus.jpg"
+        />
+        <h2 class="cardTitle">Indian Curry</h2>
+      </a>
+    </div>
+
+    <div class="heading blog-head" id="dark2">
+      <a href="#"><h1>Latest Articles</h1></a>
+    </div>
+
+    <div class="blog">
+      <div class="midSec">
         <div class="articleSec">
-            <div class="imgSec">
-                <img class="blogImg" src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1745245892/pexels-jill-wellington-1638660-257816_mhti3c.jpg">
-            </div>
-            <div class="article">
-                <span class="date">Date:10 Apr 2025</span>
-                <h2 class="blog-title">Classic Italian Salad Recipe -- A Taste of the Mediterranean!</h2>
-                <p class="brief">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Commodi rerum animi fuga eum provident quam labore sapiente 
-                    nemo natus corrupti itaque quae ad perferendis ab ut molestias 
-                    maxime, ipsum veniam.                    
-                </p>
-                          
-            </div>
-            <div class="arrow">
-                <a href="article1.html" class="readArticle"><i class="fa-solid fa-arrow-right"></i></a>
-            </div>           
-
-        </div>
-
-        <hr>
-
-        <div class="articleSec">
-            <div class="imgSec">
-                <img class="blogImg" src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1745245701/pexels-cup-of-couple-8471703_ef6ihn.jpg">
-            </div>
-            <div class="article">
-                <span class="date">Date:12 Apr 2025</span>
-                <h2 class="blog-title"> The Art of Italian Pizza: A Slice of Culinary Heaven</h2>
-                <p class="brief">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Necessitatibus autem obcaecati iusto libero deserunt aspernatur 
-                    ipsam, aut, tempore, ullam explicabo accusamus ipsa quo nesciunt 
-                    voluptas reprehenderit facilis dolorum cumque ab?
-                </p>
-                
-                
-            </div>
-            <div class="arrow">
-            <a href="article2.html" class="readArticle"><i class="fa-solid fa-arrow-right"></i></a>
-        </div>
-        </div>
-
-        <hr>   
-
-        <div class="articleSec">
-            <div class="imgSec">
-                <img class="blogImg" src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1745245740/pexels-jack-baghel-2199968-20422138_fyrpeq.jpg">
-            </div>
-            <div class="article">
-                <span class="date">Date:10 Apr 2025</span>
-                <h2 class="blog-title">This is Blog Title</h2>
-                <p class="brief">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Commodi rerum animi fuga eum provident quam labore sapiente 
-                    nemo natus corrupti itaque quae ad perferendis ab ut molestias 
-                    maxime, ipsum veniam.
-                </p>            
-             
+          <div class="imgSec">
+            <img
+              class="blogImg"
+              src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1745245892/pexels-jill-wellington-1638660-257816_mhti3c.jpg"
+            />
+          </div>
+          <div class="article">
+            <span class="date">Date:10 Apr 2025</span>
+            <h2 class="blog-title">
+              Classic Italian Salad Recipe -- A Taste of the Mediterranean!
+            </h2>
+            <p class="brief">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              rerum animi fuga eum provident quam labore sapiente nemo natus
+              corrupti itaque quae ad perferendis ab ut molestias maxime, ipsum
+              veniam.
+            </p>
           </div>
           <div class="arrow">
-            <a href="article3.html" class="readArticle"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="article1.html" class="readArticle"
+              ><i class="fa-solid fa-arrow-right"></i
+            ></a>
           </div>
-          
         </div>
-        <hr> 
-        <a class="article" href="" style="margin: auto;"><div class="moreArticles"><h3>Read More Articles</h3></div></a>
+
+        <hr />
+
+        <div class="articleSec">
+          <div class="imgSec">
+            <img
+              class="blogImg"
+              src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1745245701/pexels-cup-of-couple-8471703_ef6ihn.jpg"
+            />
+          </div>
+          <div class="article">
+            <span class="date">Date:12 Apr 2025</span>
+            <h2 class="blog-title">
+              The Art of Italian Pizza: A Slice of Culinary Heaven
+            </h2>
+            <p class="brief">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Necessitatibus autem obcaecati iusto libero deserunt aspernatur
+              ipsam, aut, tempore, ullam explicabo accusamus ipsa quo nesciunt
+              voluptas reprehenderit facilis dolorum cumque ab?
+            </p>
+          </div>
+          <div class="arrow">
+            <a href="article2.html" class="readArticle"
+              ><i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="articleSec">
+          <div class="imgSec">
+            <img
+              class="blogImg"
+              src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1745245740/pexels-jack-baghel-2199968-20422138_fyrpeq.jpg"
+            />
+          </div>
+          <div class="article">
+            <span class="date">Date:10 Apr 2025</span>
+            <h2 class="blog-title">This is Blog Title</h2>
+            <p class="brief">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              rerum animi fuga eum provident quam labore sapiente nemo natus
+              corrupti itaque quae ad perferendis ab ut molestias maxime, ipsum
+              veniam.
+            </p>
+          </div>
+          <div class="arrow">
+            <a href="article3.html" class="readArticle"
+              ><i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+        <hr />
+        <a class="article" href="" style="margin: auto"
+          ><div class="moreArticles"><h3>Read More Articles</h3></div></a
+        >
+      </div>
+
+      <div class="rightSec">
+        <div class="right-block">
+          <a href=""><div class="rightSecLink">Instant Pot Recipies</div></a>
+          <a href=""><div class="rightSecLink">Vegan Recipies</div></a>
+          <a href=""><div class="rightSecLink">Meal Prep Recipies</div></a>
+          <a href=""><div class="rightSecLink">Quick and Easy Recipies</div></a>
+          <a href=""><div class="rightSecLink">Pasta Recipies</div></a>
+          <a href=""><div class="rightSecLink">Soup Recipies</div></a>
+          <a href=""><div class="rightSecLink">Most Popular Recipies</div></a>
+        </div>
+
+        <div class="right-block subscription">
+          <h4>Sign Up for Monthly Newsletter</h4>
+          <div id="subInput">
+            <input type="email" placeholder="Email" />
+            <button type="button">Subscribe</button>
+          </div>
+        </div>
+
+        <div class="right-block">
+          <a href=""><div class="rightSecLink">Instant Pot Recipies</div></a>
+          <a href=""><div class="rightSecLink">Vegan Recipies</div></a>
+          <a href=""><div class="rightSecLink">Meal Prep Recipies</div></a>
+          <a href=""><div class="rightSecLink">Most Popular Recipies</div></a>
+        </div>
+      </div>
     </div>
 
-
-    <div class="rightSec">
-     <div class="right-block">
-        
-        <a href=""><div class="rightSecLink">Instant Pot Recipies</div></a>
-        <a href=""><div class="rightSecLink">Vegan Recipies</div></a>
-        <a href=""><div class="rightSecLink">Meal Prep Recipies</div></a>
-        <a href=""><div class="rightSecLink">Quick and Easy Recipies</div></a>
-        <a href=""><div class="rightSecLink">Pasta Recipies</div></a>
-        <a href=""><div class="rightSecLink">Soup Recipies</div></a>
-        <a href=""><div class="rightSecLink">Most Popular Recipies</div></a>
-        
-     </div>
-
-     <div class="right-block subscription">
-        <h4>Sign Up for Monthly Newsletter</h4>
-        <div id="subInput">
-        <input type="email" placeholder="Email">
-        <button type="button">Subscribe</button>
-    </div>
-     </div>
-
-     <div class="right-block">
-        
-        <a href=""><div class="rightSecLink">Instant Pot Recipies</div></a>
-        <a href=""><div class="rightSecLink">Vegan Recipies</div></a>
-        <a href=""><div class="rightSecLink">Meal Prep Recipies</div></a>
-        <a href=""><div class="rightSecLink">Most Popular Recipies</div></a>
-
-        
-     </div>
-    </div>
-
-    </div>
-    
     <div id="cover">
-    <div id="signUp">
-        
-            <div id="socialLinks">
-                <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
-                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
-                <a href=""><i class="fa-brands fa-pinterest"></i></a>
-                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
-            </div>
-            
-            
-            <div id="signupSec">
-              <input class="user-name" type="text" placeholder="First Name">
-              <input class="email" type="email" placeholder="Email">
-              <button class="go" type="button">Go</button>
-            </div>
-        </div>        
-        
-    </div>
+      <div id="signUp">
+        <div id="socialLinks">
+          <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-pinterest"></i></a>
+          <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+        </div>
 
-    
+        <div id="signupSec">
+          <input class="user-name" type="text" placeholder="First Name" />
+          <input class="email" type="email" placeholder="Email" />
+          <button class="go" type="button">Go</button>
+        </div>
+      </div>
+    </div>
 
     <div id="foodCover">
-    <div class="foodParadise">
-
+      <div class="foodParadise">
         <a href="" class="roundImg">
-            <div class="region">
-                <div class="regImage">
-                    <img src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744042630/pexels-su-la-pyae-54514809-19134836_hjrdgh.jpg" alt="image-name" width="100px" height="100px" style="object-fit: cover ;border-radius: 50%;">
-                </div>
-                <h6>Image Title</h6>
-            </div>
-            </a>
-    
-            <a href="" class="roundImg">
-            <div class="region">
-                <div class="regImage">
-                    <img src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744644059/brandi-alexandra-M-Br3v3-gao-unsplash_puacau.jpg" alt="image-name" width="200px" height="200px" style="object-fit: cover ;border-radius: 50%;">
-                </div>
-                <h6>Image Title</h6>
-            </div>
-            </a>
-
-        <a href="" class="roundImg">
-        <div class="region" >
+          <div class="region">
             <div class="regImage">
-                <img src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744644058/sam-moghadam-mix6yDC_hxU-unsplash_azusmf.jpg" alt="image-name" width="200px" height="200px" style="object-fit: cover ;border-radius: 50%;">
+              <img
+                src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744042630/pexels-su-la-pyae-54514809-19134836_hjrdgh.jpg"
+                alt="image-name"
+                width="100px"
+                height="100px"
+                style="object-fit: cover; border-radius: 50%"
+              />
             </div>
             <h6>Image Title</h6>
-        </div>
+          </div>
         </a>
 
         <a href="" class="roundImg">
-        <div class="region">
+          <div class="region">
             <div class="regImage">
-                <img src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744644321/adam-bartoszewicz-lNFfYtrbkRM-unsplash_dykchd.jpg" alt="image-name" width="200px" height="200px" style="object-fit: cover ;border-radius: 50%;">
+              <img
+                src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744644059/brandi-alexandra-M-Br3v3-gao-unsplash_puacau.jpg"
+                alt="image-name"
+                width="200px"
+                height="200px"
+                style="object-fit: cover; border-radius: 50%"
+              />
             </div>
             <h6>Image Title</h6>
-        </div>
+          </div>
         </a>
 
         <a href="" class="roundImg">
-            <div class="region">
-                <div class="regImage">
-                    <img src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744644320/joseph-gonzalez-QaGDmf5tMiE-unsplash_pniugy.jpg" alt="image-name" width="200px" height="200px" style="object-fit: cover ;border-radius: 50%;">
-                </div>
-                <h6>Image Title</h6>
+          <div class="region">
+            <div class="regImage">
+              <img
+                src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744644058/sam-moghadam-mix6yDC_hxU-unsplash_azusmf.jpg"
+                alt="image-name"
+                width="200px"
+                height="200px"
+                style="object-fit: cover; border-radius: 50%"
+              />
             </div>
-            </a>
-    
-            <a href="" class="roundImg">
-            <div class="region" class="roundImg">
-                <div class="regImage">
-                    <img src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744644058/marta-filipczyk-7BQC4h7wd9Y-unsplash_wni6sv.jpg" alt="image-name" width="200px" height="200px" style="object-fit: cover ;border-radius: 50%;">
-                </div>
-                <h6>Image Title</h6>
+            <h6>Image Title</h6>
+          </div>
+        </a>
+
+        <a href="" class="roundImg">
+          <div class="region">
+            <div class="regImage">
+              <img
+                src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744644321/adam-bartoszewicz-lNFfYtrbkRM-unsplash_dykchd.jpg"
+                alt="image-name"
+                width="200px"
+                height="200px"
+                style="object-fit: cover; border-radius: 50%"
+              />
             </div>
-            </a>
-    </div>
+            <h6>Image Title</h6>
+          </div>
+        </a>
+
+        <a href="" class="roundImg">
+          <div class="region">
+            <div class="regImage">
+              <img
+                src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744644320/joseph-gonzalez-QaGDmf5tMiE-unsplash_pniugy.jpg"
+                alt="image-name"
+                width="200px"
+                height="200px"
+                style="object-fit: cover; border-radius: 50%"
+              />
+            </div>
+            <h6>Image Title</h6>
+          </div>
+        </a>
+
+        <a href="" class="roundImg">
+          <div class="region" class="roundImg">
+            <div class="regImage">
+              <img
+                src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744644058/marta-filipczyk-7BQC4h7wd9Y-unsplash_wni6sv.jpg"
+                alt="image-name"
+                width="200px"
+                height="200px"
+                style="object-fit: cover; border-radius: 50%"
+              />
+            </div>
+            <h6>Image Title</h6>
+          </div>
+        </a>
+      </div>
     </div>
 
     <div id="footer">
-        <div id="footerWrap">
-          <div id="company" class="vAlign">
-            <h3>Company</h3>
-            <a href="" class="footerLink catLink">Link</a>
-            <a href="" class="footerLink catLink">Link</a>
-            <a href="" class="footerLink catLink">Link</a>
-            <a href="" class="footerLink catLink">Link</a>
+      <div id="footerWrap">
+        <div id="company" class="vAlign">
+          <h3>Company</h3>
+          <a href="" class="footerLink catLink">Link</a>
+          <a href="" class="footerLink catLink">Link</a>
+          <a href="" class="footerLink catLink">Link</a>
+          <a href="" class="footerLink catLink">Link</a>
         </div>
-          <div id="legal" class="vAlign">
-            <h3>Legal</h3>
-            <a href="" class="footerLink catLink">Link</a>
-            <a href="" class="footerLink catLink">Link</a>
-            <a href="" class="footerLink catLink">Link</a>
-            <a href="" class="footerLink catLink">Link</a>
-            
+        <div id="legal" class="vAlign">
+          <h3>Legal</h3>
+          <a href="" class="footerLink catLink">Link</a>
+          <a href="" class="footerLink catLink">Link</a>
+          <a href="" class="footerLink catLink">Link</a>
+          <a href="" class="footerLink catLink">Link</a>
         </div>
-          <div id="recipies" class="vAlign">
-            <h3>Food & Recepies</h3>
-            <a href="" class="footerLink catLink">Link</a>
-            <a href="" class="footerLink catLink">Link</a>
-            <a href="" class="footerLink catLink">Link</a>
-            <a href="" class="footerLink catLink">Link</a>
+        <div id="recipies" class="vAlign">
+          <h3>Food & Recepies</h3>
+          <a href="" class="footerLink catLink">Link</a>
+          <a href="" class="footerLink catLink">Link</a>
+          <a href="" class="footerLink catLink">Link</a>
+          <a href="" class="footerLink catLink">Link</a>
         </div>
-        </div>
+      </div>
     </div>
 
-
-
-
- <script src="script.js"></script>
- <script src="https://kit.fontawesome.com/eac29af5b4.js" crossorigin="anonymous"></script>   
-</body>
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/eac29af5b4.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

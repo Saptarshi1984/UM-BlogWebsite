@@ -1,333 +1,416 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    
-    
-</head>
-<body>
-
-   
-
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div id="container">
-
-    <nav id="navBar">
+      <nav id="navBar">
         <div id="brand">
-            <a href="index.html" class=" brandText">Authentic Cuisines.</a>
+          <a href="index.html" class="brandText">Authentic Cuisines.</a>
         </div>
 
         <div id="linkContainer">
-           <a href="" class="navLink">All Recipies</a>
-           <a href="" class="navLink"> Shop</a>
-           <a href="" class="navLink">About Us</a>
-           <a href="" class="navLink">Contact Us</a>
-           <div class="separator"></div>
-           <input class="searchInput" type="search" placeholder="I am looking for..."> 
-           <a href="" class="navLink download"><span><i class="fa-solid fa-cloud-arrow-down"></i></span>Free Cook Book</a>
-           <a href="" class="navLink signin">Sign In</a>
-           <a class="navLink mode" onclick="dark_modeToggle()">
-            <i id="modeIcon"  class="fa-solid fa-moon"></i>
-           </a>  
-         </div>
-         
-         <div id="mobileMenu">           
-
-            <a  onclick="drop_menu()" class="mIcon"><i class="fa-solid fa-bars"></i></a>
-
-         </div>
-         <div id="mobileLinks">
-            <a href="" class="navLink mLink">All Recipies</a>
-            <a href="" class="navLink mLink"> Shop</a>
-            <a href="" class="navLink mLink">About Us</a>
-            <a href="" class="navLink mLink">Contact Us</a>
-            <a href="" class="navLink mLink">Sign In</a>
-            <a class="navLink mode" onclick="dark_modeToggle()">
-                <i id="modeIcon" class="fa-solid fa-moon"></i>
-            </a>
-
-           </div>
-    </nav>
-
-        <div id="linkCategory">
-            <a href="" class="navLink catLink">Breakfast</a>
-            <a href="" class="navLink catLink"> Lunch</a>
-            <a href="" class="navLink catLink">Supper</a>
-            <a href="" class="navLink catLink">Dinner</a>
-            <a href="" class="navLink catLink">Soup</a>
-            <a href="" class="navLink catLink"> Lunch</a>
-            <a href="" class="navLink catLink">Supper</a>
-            <a href="" class="navLink catLink">Dinner</a>
-                      
-         </div>
+          <a href="" class="navLink">All Recipies</a>
+          <a href="" class="navLink"> Shop</a>
+          <a href="" class="navLink">About Us</a>
+          <a href="" class="navLink">Contact Us</a>
+          <div class="separator"></div>
+          <input
+            class="searchInput"
+            type="search"
+            placeholder="I am looking for..."
+          />
+          <a href="" class="navLink download"
+            ><span><i class="fa-solid fa-cloud-arrow-down"></i></span>Free Cook
+            Book</a
+          >
+          <a href="" class="navLink signin">Sign In</a>
+          <a class="navLink mode" onclick="dark_modeToggle()">
+            <i id="modeIcon" class="fa-solid fa-moon"></i>
+          </a>
         </div>
 
-        <div class="heading">
-            <a href="#"><h1>Trending Recipies</h1></a>
-            <a href="#"><p class="seeAll">See all</p></a>
+        <div id="mobileMenu">
+          <a onclick="drop_menu()" class="mIcon"
+            ><i class="fa-solid fa-bars"></i
+          ></a>
         </div>
-
-        <div id="main-content">
-
-            <a href="" class="card">
-                <img class="cardImg" src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1745246248/pexels-bertellifotografia-31393444_bbfa1t.jpg">
-                <h2 class="cardTitle">Japanese Ramen</h2>                
-            </a>
-           
-                
-            <a href="" class="card">
-                <img class="cardImg" src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1745246249/pexels-yankrukov-8818732_ilo4fk.jpg">
-                <h2 class="cardTitle">Indian Thali</h2>                
-            </a>
-
-            <a href="" class="card">
-                <img class="cardImg" src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1745246775/pexels-valeriya-17138067_acp0uh.jpg">
-                <h2 class="cardTitle">BBQ's</h2>                
-            </a>
-
-
-            <a href="" class="card">
-                <img class="cardImg" src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1745246537/pexels-dainiktales-19834448_aamgus.jpg">
-                <h2 class="cardTitle">Indian Curry</h2>                   
-            </a>
-           
-
-            
+        <div id="mobileLinks">
+          <a href="" class="navLink mLink">All Recipies</a>
+          <a href="" class="navLink mLink"> Shop</a>
+          <a href="" class="navLink mLink">About Us</a>
+          <a href="" class="navLink mLink">Contact Us</a>
+          <a href="" class="navLink mLink">Sign In</a>
+          <a class="navLink mode" onclick="dark_modeToggle()">
+            <i id="modeIcon" class="fa-solid fa-moon"></i>
+          </a>
         </div>
- 
-        <div class="blog">
+      </nav>
 
-            <div class="midSec">
-                 <div id="fullArticle">
-
-                    <div id="cusineImg">
-                        <img src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1745245701/pexels-cup-of-couple-8471703_ef6ihn.jpg">
-                    </div>
-                    <div id="basicDetails">
-                    <h1> The Art of Italian Pizza: A Slice of Culinary Heaven</h1>
-                    <h3>Date: 12-04-2025</h3>
-                    
-                    <img src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744629165/1742480725763_utbwlg.jpg" alt="author" width="80px" height="80px" style="border-radius: 50%;">
-                    <h4>Author: Saptarshi M.</h4>
-                    </div>
-        
-                 </div>
-                 <div id="articleContent">
-                      <p>When you think of Italian cuisine, one of the first dishes that comes to mind is pizza. But not just any 
-                        pizza—authentic Italian pizza is a cultural treasure, deeply rooted in tradition, simplicity, and flavor. 
-                        From the cobbled streets of Naples to the elegant eateries of Rome, pizza in Italy is more than just 
-                        food—it's an experience. </p>
-                        <h3>A Brief History of Italian Pizza</h3>
-                        <p>
-                            Pizza as we know it originated in Naples, Italy, in the late 18th century. It was originally a humble 
-                            street food, enjoyed by the working class. The classic Margherita pizza—topped with tomatoes, mozzarella, 
-                            and basil—was reportedly created in honor of Queen Margherita of Savoy in 1889, showcasing the colors of 
-                            the Italian flag.
-                        </p> 
-                        <h3>What Makes Italian Pizza Special?</h3>
-                        <p>
-                            Italian pizza is all about quality ingredients and tradition. Unlike many fast-food versions, authentic 
-                            Italian pizza focuses on a thin, crisp-yet-chewy crust made with only flour, water, yeast, and salt. 
-                            The dough is typically fermented for 24–48 hours, which gives it that irresistible texture and flavor.
-                        </p>
-                        <h4>Key Features:</h4>
-                        <ul>
-                            <li><strong>Dough:</strong> Hand-kneaded, slowly fermented, and baked in a wood-fired oven.</li>
-                            <li><strong>Sauce:</strong> Fresh, uncooked crushed San Marzano tomatoes with a touch of salt and olive oil</li>
-                            <li><strong>Cheese:</strong> Usually mozzarella di bufala or fior di latte.</li>
-                            <li><strong>Toppings:</strong> Less is more. High-quality ingredients like prosciutto, arugula, mushrooms, or artichokes are used sparingly.</li>
-                        </ul>
-                        <h3>Regional Styles of Pizza in Italy</h3>
-                        <ul>
-                            <li><strong>Neapolitan Pizza:</strong> Soft, puffy crust with a tender center. Cooked in 90 seconds in a blazing hot 
-                                wood-fired oven. This is the style protected by the Associazione Verace Pizza Napoletana (AVPN).
-                            </li>                            
-                            <li>
-                               <strong>Roman Pizza:</strong> Known for its thin and crispy crust. Often baked in a rectangular shape and sold by 
-                                weight.
-                            </li>
-                            
-                            <li>
-                              <strong>Pizza al Taglio:</strong> “Pizza by the slice,” popular in Rome. Baked in large trays and topped with 
-                                everything from zucchini flowers to truffle cream.
-                            </li>
-                            
-                            <li>
-                               <strong>Sicilian Pizza (Sfincione):</strong> Thick, spongy dough with tomato sauce, onions, anchovies, and grated cheese. 
-                                Often square-shaped.
-                            </li>                            
-                        </ul>
-
-                        <h3>How to Enjoy Italian Pizza Like a Local</h3>
-                        <ul>
-                        <li>Don’t ask for pineapple – It’s a big no-no in traditional pizzerias.</li>
-                        <li>Use your hands or a fork and knife, depending on the setting.</li>
-                        <li>Order a whole pizza for yourself – Sharing is not typical in Italy.</li>
-                        <li>Pair it with wine or a light beer, or try it with a refreshing Italian soda.</li>
-                    </ul>
-                    <h3>Final Slice</h3>
-                    <p>Whether you’re enjoying a street-side slice in Naples or making your own pizza at home with a few simple, 
-                        fresh ingredients, Italian pizza is a celebration of flavor, culture, and craftsmanship. It’s not about 
-                        overloading with toppings but about honoring the dough, the sauce, and the care that goes into every step.
-                        So next time you bite into a perfectly blistered slice with bubbling mozzarella and a drizzle of olive oil, 
-                        remember—you’re not just eating pizza. You’re tasting history.
-                    </p>
-                 </div>
-
-                 <!-- This is the comment section -->
-                 <div id="commentBox">
-              
-                 </div> 
-                 
-                 <div id="commentContainer">
-                    <h2>Leave a Comment Here</h2>
-                    <div id="commentSec" >
-                        <input id="userName" type="text" placeholder="Name" required>
-                        <input id="userEmail" type="email" placeholder="Email" required>
-                        <textarea name="comment-here" id="userComment" placeholder="Write your comment here..." required style="height: 150px; padding: 1rem;"></textarea>
-                        <button type="button" onclick="submitComment()">Submit</button>
-                    </div> 
-
-                 </div>          
-                 <a class="article" href="" style="margin: auto;"><div class="moreArticles"><h3>Read More Articles</h3></div></a>
-            </div>
-        
-       
-        
-    
-    <div class="rightSec">
-     <div class="right-block">
-        
-        <a href=""><div class="rightSecLink">Instant Pot Recipies</div></a>
-        <a href=""><div class="rightSecLink">Vegan Recipies</div></a>
-        <a href=""><div class="rightSecLink">Meal Prep Recipies</div></a>
-        <a href=""><div class="rightSecLink">Quick and Easy Recipies</div></a>
-        <a href=""><div class="rightSecLink">Pasta Recipies</div></a>
-        <a href=""><div class="rightSecLink">Soup Recipies</div></a>
-        <a href=""><div class="rightSecLink">Most Popular Recipies</div></a>
-        <a href=""><div class="rightSecLink">Instant Pot Recipies</div></a>
-        <a href=""><div class="rightSecLink">Vegan Recipies</div></a>
-        <a href=""><div class="rightSecLink">Meal Prep Recipies</div></a>
-        <a href=""><div class="rightSecLink">Quick and Easy Recipies</div></a>
-        <a href=""><div class="rightSecLink">Pasta Recipies</div></a>
-        <a href=""><div class="rightSecLink">Soup Recipies</div></a>
-        <a href=""><div class="rightSecLink">Most Popular Recipies</div></a>
-        
-     </div>
-
+      <div id="linkCategory">
+        <a href="" class="navLink catLink">Breakfast</a>
+        <a href="" class="navLink catLink"> Lunch</a>
+        <a href="" class="navLink catLink">Supper</a>
+        <a href="" class="navLink catLink">Dinner</a>
+        <a href="" class="navLink catLink">Soup</a>
+        <a href="" class="navLink catLink"> Lunch</a>
+        <a href="" class="navLink catLink">Supper</a>
+        <a href="" class="navLink catLink">Dinner</a>
+      </div>
     </div>
+
+    <div class="heading">
+      <a href="#"><h1>Trending Recipies</h1></a>
+      <a href="#"><p class="seeAll">See all</p></a>
+    </div>
+
+    <div id="main-content">
+      <a href="" class="card">
+        <img
+          class="cardImg"
+          src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1745246248/pexels-bertellifotografia-31393444_bbfa1t.jpg"
+        />
+        <h2 class="cardTitle">Japanese Ramen</h2>
+      </a>
+
+      <a href="" class="card">
+        <img
+          class="cardImg"
+          src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1745246249/pexels-yankrukov-8818732_ilo4fk.jpg"
+        />
+        <h2 class="cardTitle">Indian Thali</h2>
+      </a>
+
+      <a href="" class="card">
+        <img
+          class="cardImg"
+          src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1745246775/pexels-valeriya-17138067_acp0uh.jpg"
+        />
+        <h2 class="cardTitle">BBQ's</h2>
+      </a>
+
+      <a href="" class="card">
+        <img
+          class="cardImg"
+          src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1745246537/pexels-dainiktales-19834448_aamgus.jpg"
+        />
+        <h2 class="cardTitle">Indian Curry</h2>
+      </a>
+    </div>
+
+    <div class="blog">
+      <div class="midSec">
+        <div id="fullArticle">
+          <div id="cusineImg">
+            <img
+              src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1745245701/pexels-cup-of-couple-8471703_ef6ihn.jpg"
+            />
+          </div>
+          <div id="basicDetails">
+            <h1>The Art of Italian Pizza: A Slice of Culinary Heaven</h1>
+            <h3>Date: 12-04-2025</h3>
+
+            <img
+              src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744629165/1742480725763_utbwlg.jpg"
+              alt="author"
+              width="80px"
+              height="80px"
+              style="border-radius: 50%"
+            />
+            <h4>Author: Saptarshi M.</h4>
+          </div>
+        </div>
+        <div id="articleContent">
+          <p>
+            When you think of Italian cuisine, one of the first dishes that
+            comes to mind is pizza. But not just any pizza—authentic Italian
+            pizza is a cultural treasure, deeply rooted in tradition,
+            simplicity, and flavor. From the cobbled streets of Naples to the
+            elegant eateries of Rome, pizza in Italy is more than just food—it's
+            an experience.
+          </p>
+          <h3>A Brief History of Italian Pizza</h3>
+          <p>
+            Pizza as we know it originated in Naples, Italy, in the late 18th
+            century. It was originally a humble street food, enjoyed by the
+            working class. The classic Margherita pizza—topped with tomatoes,
+            mozzarella, and basil—was reportedly created in honor of Queen
+            Margherita of Savoy in 1889, showcasing the colors of the Italian
+            flag.
+          </p>
+          <h3>What Makes Italian Pizza Special?</h3>
+          <p>
+            Italian pizza is all about quality ingredients and tradition. Unlike
+            many fast-food versions, authentic Italian pizza focuses on a thin,
+            crisp-yet-chewy crust made with only flour, water, yeast, and salt.
+            The dough is typically fermented for 24–48 hours, which gives it
+            that irresistible texture and flavor.
+          </p>
+          <h4>Key Features:</h4>
+          <ul>
+            <li>
+              <strong>Dough:</strong> Hand-kneaded, slowly fermented, and baked
+              in a wood-fired oven.
+            </li>
+            <li>
+              <strong>Sauce:</strong> Fresh, uncooked crushed San Marzano
+              tomatoes with a touch of salt and olive oil
+            </li>
+            <li>
+              <strong>Cheese:</strong> Usually mozzarella di bufala or fior di
+              latte.
+            </li>
+            <li>
+              <strong>Toppings:</strong> Less is more. High-quality ingredients
+              like prosciutto, arugula, mushrooms, or artichokes are used
+              sparingly.
+            </li>
+          </ul>
+          <h3>Regional Styles of Pizza in Italy</h3>
+          <ul>
+            <li>
+              <strong>Neapolitan Pizza:</strong> Soft, puffy crust with a tender
+              center. Cooked in 90 seconds in a blazing hot wood-fired oven.
+              This is the style protected by the Associazione Verace Pizza
+              Napoletana (AVPN).
+            </li>
+            <li>
+              <strong>Roman Pizza:</strong> Known for its thin and crispy crust.
+              Often baked in a rectangular shape and sold by weight.
+            </li>
+
+            <li>
+              <strong>Pizza al Taglio:</strong> “Pizza by the slice,” popular in
+              Rome. Baked in large trays and topped with everything from
+              zucchini flowers to truffle cream.
+            </li>
+
+            <li>
+              <strong>Sicilian Pizza (Sfincione):</strong> Thick, spongy dough
+              with tomato sauce, onions, anchovies, and grated cheese. Often
+              square-shaped.
+            </li>
+          </ul>
+
+          <h3>How to Enjoy Italian Pizza Like a Local</h3>
+          <ul>
+            <li>
+              Don’t ask for pineapple – It’s a big no-no in traditional
+              pizzerias.
+            </li>
+            <li>
+              Use your hands or a fork and knife, depending on the setting.
+            </li>
+            <li>
+              Order a whole pizza for yourself – Sharing is not typical in
+              Italy.
+            </li>
+            <li>
+              Pair it with wine or a light beer, or try it with a refreshing
+              Italian soda.
+            </li>
+          </ul>
+          <h3>Final Slice</h3>
+          <p>
+            Whether you’re enjoying a street-side slice in Naples or making your
+            own pizza at home with a few simple, fresh ingredients, Italian
+            pizza is a celebration of flavor, culture, and craftsmanship. It’s
+            not about overloading with toppings but about honoring the dough,
+            the sauce, and the care that goes into every step. So next time you
+            bite into a perfectly blistered slice with bubbling mozzarella and a
+            drizzle of olive oil, remember—you’re not just eating pizza. You’re
+            tasting history.
+          </p>
+        </div>
+
+        <!-- This is the comment section -->
+        <div id="commentBox"></div>
+
+        <div id="commentContainer">
+          <h2>Leave a Comment Here</h2>
+          <div id="commentSec">
+            <input id="userName" type="text" placeholder="Name" required />
+            <input id="userEmail" type="email" placeholder="Email" required />
+            <textarea
+              name="comment-here"
+              id="userComment"
+              placeholder="Write your comment here..."
+              required
+              style="height: 150px; padding: 1rem"
+            ></textarea>
+            <button type="button" onclick="submitComment()">Submit</button>
+          </div>
+        </div>
+        <a class="article" href="" style="margin: auto"
+          ><div class="moreArticles"><h3>Read More Articles</h3></div></a
+        >
+      </div>
+
+      <div class="rightSec">
+        <div class="right-block">
+          <a href=""><div class="rightSecLink">Instant Pot Recipies</div></a>
+          <a href=""><div class="rightSecLink">Vegan Recipies</div></a>
+          <a href=""><div class="rightSecLink">Meal Prep Recipies</div></a>
+          <a href=""><div class="rightSecLink">Quick and Easy Recipies</div></a>
+          <a href=""><div class="rightSecLink">Pasta Recipies</div></a>
+          <a href=""><div class="rightSecLink">Soup Recipies</div></a>
+          <a href=""><div class="rightSecLink">Most Popular Recipies</div></a>
+          <a href=""><div class="rightSecLink">Instant Pot Recipies</div></a>
+          <a href=""><div class="rightSecLink">Vegan Recipies</div></a>
+          <a href=""><div class="rightSecLink">Meal Prep Recipies</div></a>
+          <a href=""><div class="rightSecLink">Quick and Easy Recipies</div></a>
+          <a href=""><div class="rightSecLink">Pasta Recipies</div></a>
+          <a href=""><div class="rightSecLink">Soup Recipies</div></a>
+          <a href=""><div class="rightSecLink">Most Popular Recipies</div></a>
+        </div>
+      </div>
     </div>
 
     <div id="cover">
-    <div id="signUp">
-        
-            <div id="socialLinks">
-                <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
-                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
-                <a href=""><i class="fa-brands fa-pinterest"></i></a>
-                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
-            </div>
-            
-            
-            <div id="signupSec">
-              <input class="user-name" type="text" placeholder="First Name">
-              <input class="email" type="email" placeholder="Email">
-              <button class="go" type="button">Go</button>
-            </div>
-        </div>        
-        
-    </div>
+      <div id="signUp">
+        <div id="socialLinks">
+          <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-pinterest"></i></a>
+          <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+        </div>
 
+        <div id="signupSec">
+          <input class="user-name" type="text" placeholder="First Name" />
+          <input class="email" type="email" placeholder="Email" />
+          <button class="go" type="button">Go</button>
+        </div>
+      </div>
+    </div>
 
     <div id="foodCover">
-        <div class="foodParadise">
-    
-            <a href="" class="roundImg">
-                <div class="region">
-                    <div class="regImage">
-                        <img src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744042630/pexels-su-la-pyae-54514809-19134836_hjrdgh.jpg" alt="image-name" width="200px" height="200px" style="object-fit: cover ;border-radius: 50%;">
-                    </div>
-                    <h6>Image Title</h6>
-                </div>
-                </a>
-        
-                <a href="" class="roundImg">
-                <div class="region">
-                    <div class="regImage">
-                        <img src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744644059/brandi-alexandra-M-Br3v3-gao-unsplash_puacau.jpg" alt="image-name" width="200px" height="200px" style="object-fit: cover ;border-radius: 50%;">
-                    </div>
-                    <h6>Image Title</h6>
-                </div>
-                </a>
-    
-            <a href="" class="roundImg">
-            <div class="region" >
-                <div class="regImage">
-                    <img src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744644058/sam-moghadam-mix6yDC_hxU-unsplash_azusmf.jpg" alt="image-name" width="200px" height="200px" style="object-fit: cover ;border-radius: 50%;">
-                </div>
-                <h6>Image Title</h6>
+      <div class="foodParadise">
+        <a href="" class="roundImg">
+          <div class="region">
+            <div class="regImage">
+              <img
+                src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744042630/pexels-su-la-pyae-54514809-19134836_hjrdgh.jpg"
+                alt="image-name"
+                width="200px"
+                height="200px"
+                style="object-fit: cover; border-radius: 50%"
+              />
             </div>
-            </a>
-    
-            <a href="" class="roundImg">
-            <div class="region">
-                <div class="regImage">
-                    <img src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744644321/adam-bartoszewicz-lNFfYtrbkRM-unsplash_dykchd.jpg" alt="image-name" width="200px" height="200px" style="object-fit: cover ;border-radius: 50%;">
-                </div>
-                <h6>Image Title</h6>
-            </div>
-            </a>
-    
-            <a href="" class="roundImg">
-                <div class="region">
-                    <div class="regImage">
-                        <img src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744644320/joseph-gonzalez-QaGDmf5tMiE-unsplash_pniugy.jpg" alt="image-name" width="200px" height="200px" style="object-fit: cover ;border-radius: 50%;">
-                    </div>
-                    <h6>Image Title</h6>
-                </div>
-                </a>
-        
-                <a href="" class="roundImg">
-                <div class="region" class="roundImg">
-                    <div class="regImage">
-                        <img src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744644058/marta-filipczyk-7BQC4h7wd9Y-unsplash_wni6sv.jpg" alt="image-name" width="200px" height="200px" style="object-fit: cover ;border-radius: 50%;">
-                    </div>
-                    <h6>Image Title</h6>
-                </div>
-                </a>
-        </div>
-        </div>
+            <h6>Image Title</h6>
+          </div>
+        </a>
 
-    <div id="footer">
-        <div id="footerWrap">
-          <div id="company" class="vAlign">
-            <h3>Company</h3>
-            <a href="" class="footerLink catLink">Link</a>
-            <a href="" class="footerLink catLink">Link</a>
-            <a href="" class="footerLink catLink">Link</a>
-            <a href="" class="footerLink catLink">Link</a>
-        </div>
-          <div id="legal" class="vAlign">
-            <h3>Legal</h3>
-            <a href="" class="footerLink catLink">Link</a>
-            <a href="" class="footerLink catLink">Link</a>
-            <a href="" class="footerLink catLink">Link</a>
-            <a href="" class="footerLink catLink">Link</a>
-            
-        </div>
-          <div id="recipies" class="vAlign">
-            <h3>Food & Recepies</h3>
-            <a href="" class="footerLink catLink">Link</a>
-            <a href="" class="footerLink catLink">Link</a>
-            <a href="" class="footerLink catLink">Link</a>
-            <a href="" class="footerLink catLink">Link</a>
-        </div>
-        </div>
+        <a href="" class="roundImg">
+          <div class="region">
+            <div class="regImage">
+              <img
+                src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744644059/brandi-alexandra-M-Br3v3-gao-unsplash_puacau.jpg"
+                alt="image-name"
+                width="200px"
+                height="200px"
+                style="object-fit: cover; border-radius: 50%"
+              />
+            </div>
+            <h6>Image Title</h6>
+          </div>
+        </a>
+
+        <a href="" class="roundImg">
+          <div class="region">
+            <div class="regImage">
+              <img
+                src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744644058/sam-moghadam-mix6yDC_hxU-unsplash_azusmf.jpg"
+                alt="image-name"
+                width="200px"
+                height="200px"
+                style="object-fit: cover; border-radius: 50%"
+              />
+            </div>
+            <h6>Image Title</h6>
+          </div>
+        </a>
+
+        <a href="" class="roundImg">
+          <div class="region">
+            <div class="regImage">
+              <img
+                src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744644321/adam-bartoszewicz-lNFfYtrbkRM-unsplash_dykchd.jpg"
+                alt="image-name"
+                width="200px"
+                height="200px"
+                style="object-fit: cover; border-radius: 50%"
+              />
+            </div>
+            <h6>Image Title</h6>
+          </div>
+        </a>
+
+        <a href="" class="roundImg">
+          <div class="region">
+            <div class="regImage">
+              <img
+                src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744644320/joseph-gonzalez-QaGDmf5tMiE-unsplash_pniugy.jpg"
+                alt="image-name"
+                width="200px"
+                height="200px"
+                style="object-fit: cover; border-radius: 50%"
+              />
+            </div>
+            <h6>Image Title</h6>
+          </div>
+        </a>
+
+        <a href="" class="roundImg">
+          <div class="region" class="roundImg">
+            <div class="regImage">
+              <img
+                src="https://res.cloudinary.com/dytxyfzyd/image/upload/v1744644058/marta-filipczyk-7BQC4h7wd9Y-unsplash_wni6sv.jpg"
+                alt="image-name"
+                width="200px"
+                height="200px"
+                style="object-fit: cover; border-radius: 50%"
+              />
+            </div>
+            <h6>Image Title</h6>
+          </div>
+        </a>
+      </div>
     </div>
 
- <script src="script.js"></script>
- <script src="https://kit.fontawesome.com/eac29af5b4.js" crossorigin="anonymous"></script>   
-</body>
+    <div id="footer">
+      <div id="footerWrap">
+        <div id="company" class="vAlign">
+          <h3>Company</h3>
+          <a href="" class="footerLink catLink">Link</a>
+          <a href="" class="footerLink catLink">Link</a>
+          <a href="" class="footerLink catLink">Link</a>
+          <a href="" class="footerLink catLink">Link</a>
+        </div>
+        <div id="legal" class="vAlign">
+          <h3>Legal</h3>
+          <a href="" class="footerLink catLink">Link</a>
+          <a href="" class="footerLink catLink">Link</a>
+          <a href="" class="footerLink catLink">Link</a>
+          <a href="" class="footerLink catLink">Link</a>
+        </div>
+        <div id="recipies" class="vAlign">
+          <h3>Food & Recepies</h3>
+          <a href="" class="footerLink catLink">Link</a>
+          <a href="" class="footerLink catLink">Link</a>
+          <a href="" class="footerLink catLink">Link</a>
+          <a href="" class="footerLink catLink">Link</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/eac29af5b4.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
